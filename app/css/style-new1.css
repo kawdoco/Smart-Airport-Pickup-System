@@ -1,0 +1,374 @@
+
+.bs-example{
+    margin: 20px;
+}
+.modal-content iframe{
+    margin: 0 auto;
+    display: block;
+}
+
+#toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+}
+.features-area-box{
+    padding:45px 15px 0 15px;
+    margin-top:-40px;
+    margin-bottom:60px;
+    position:relative;
+    z-index:10;
+    border-radius:6px;
+    background-color: #f5f5f5;
+}
+.features-area-box-outer{
+    position:relative;
+    background-color: #f5f5f5;
+}
+.features-area-box:before{
+    position:absolute;
+    right:0;
+    bottom:-25px;
+    width:50.5%;
+    height:40px;
+    background-color: #f5f5f5;
+    content:"";
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+    transform:rotate(-3deg);
+    z-index:9;
+}
+.features-area-box:after{
+    position:absolute;
+    left:0;
+    bottom:-25px;
+    width:50.5%;
+    height:40px;
+    background-color: #f5f5f5;
+    content:"";
+    -webkit-transform:rotate(3deg);
+    -moz-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    transform:rotate(3deg);
+    z-index:9;
+}
+.features-area-box-outer:before{
+    position:absolute;
+    right:0;
+    bottom:-45px;
+    width:50.5%;
+    height:60px;
+    content:"";
+    -webkit-transform:rotate(-3deg);
+    -moz-transform:rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    -o-transform:rotate(-3deg);
+    transform:rotate(-3deg);
+    z-index:8;
+}
+.features-area-box-outer:after{
+    position:absolute;
+    left:0;
+    bottom:-45px;
+    width:50.5%;
+    height:60px;
+    content:"";
+    -webkit-transform:rotate(3deg);
+    -moz-transform:rotate(3deg);
+    -ms-transform:rotate(3deg);
+    -o-transform:rotate(3deg);
+    transform:rotate(3deg);
+    z-index:8;
+}
+
+
+
+.datepicker {
+    z-index: 9999999999;
+}
+
+@media (min-width: 1000px) {
+
+    .bookcage{      
+        margin-top: 400px; position: relative; z-index: 99999999;    top: 0; left: 0; bottom: 0; right: 0;
+        height: 200px;
+
+    }
+
+    .destcage{
+        margin-top: 10px; position: relative; z-index: 9999999; height: auto;  top: 0; left: 0; right: 0; background-color: #fff;  
+    }
+
+    .mostcage{
+        margin-top: 950px; position: relative; z-index: 9999999; height: auto;  top: 0; left: 0; right: 0; background-color: #fff;  
+
+
+    }
+}
+
+#dpd1
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+#dpd2
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+#dpd3
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+#dpdrop
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+
+#country_list_id  , #country_list_id1
+{
+    position: absolute; cursor: default;z-index:300000000 !important;
+    background-color: red;
+    padding: 20px;
+    list-style: none;      
+
+
+
+}
+#country_list_id  li
+{
+
+    padding: 20px; 
+line-height: 50px;    
+
+
+}
+
+#country_list_id1  li
+{
+
+    padding: 20px;     
+line-height: 50px; 
+
+}
+
+.datepicker {
+    z-index: 9999999999;
+}
+
+
+.selectParent{
+    width:100%;
+    overflow:hidden;
+
+
+}
+
+.selectParent select{
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+   border: 1px solid #f58220;
+    background: transparent url("http://www.srilankacars.lk/image/icon/down.png") no-repeat right center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f5f5f5}
+
+
+.select1{
+    width:100%;
+    overflow:hidden;
+
+
+}
+
+.select1 select{
+    width: 370px;
+    height: 33px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    margin-top: 1px;
+   border: 1px solid #f58220;
+    background-color: #f5f5f5 !important;
+   background: transparent url("http://www.srilankacars.lk/image/icon/down.png") no-repeat right center;
+
+}
+.selectParent4{
+    width:100%;
+    overflow:hidden;
+
+
+}
+
+.selectParent4 select{
+     width:100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #f58220;
+    background: transparent url("http://www.srilankacars.lk/image/icon/down.png") no-repeat right center;
+}
+
+.selectParent5{
+    width:100%;
+    overflow:hidden;
+
+
+}
+
+.selectParent5 select{
+    width:130px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+   border: 1px solid #f58220;
+    background: transparent url("http://www.srilankacars.lk/image/icon/down.png") no-repeat 110px center;
+}
+
+#dpd11
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+#dpd12
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+
+.selectParent2{
+    width:100%;
+    overflow:hidden;
+
+
+}
+
+.selectParent2 select{
+    width:250px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+   border: 1px solid #f58220;
+   background: transparent url("http://www.srilankacars.lk/image/icon/down.png") no-repeat right center;
+}
+
+.selectParent3{
+    width:100%;
+    overflow:hidden;
+
+
+}
+
+.selectParent3 select{
+    width:300px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #f58220;
+    background: transparent url("http://www.srilankacars.lk/image/icon/down.png") no-repeat right center;
+}
+
+
+
+#dpd15
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+#dpd16
+{
+    background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.selectParent5{
+    width:100%;
+    overflow:hidden;
+   
+   
+}
+
+.selectParent5 select{
+    width:130px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #f58220;
+    background: transparent url("http://www.srilankacars.lk/image/icon/down.png") no-repeat right center;
+}
+ #dpd11
+        {
+            background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+          background-position: right;
+            background-repeat: no-repeat;
+           
+        }
+    
+           #dpd12
+        {
+            background-image: url(http://www.srilankacars.lk/image/icon/calender.jpg);
+          background-position: right;
+            background-repeat: no-repeat;
+          
+        }
+        
+        #main-page{
+        font-size: 16px;
+        color: #777;
+        }     
+        
+
+
+
+
+

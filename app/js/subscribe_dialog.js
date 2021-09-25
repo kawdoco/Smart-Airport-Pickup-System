@@ -1,0 +1,1 @@
+$("#subscribe").on("submit",function(e){return e.preventDefault(),$("#dialog").dialog("open"),!1}),$("#dialog").dialog({autoOpen:!1,title:"Thanks from Kawdoco",width:330,show:{effect:"blind",duration:100},hide:{effect:"fade",duration:1e3}});

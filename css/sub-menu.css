@@ -1,0 +1,54 @@
+.urbangreymenu .headerbar {
+	color: #fff;
+	background: url(../images/backgrounds/sub-links-head.png) no-repeat 0 0;
+	margin-bottom: 0;
+	text-transform: inherit;
+	padding: 8px 0 6px 7px;
+	font-weight: bold;
+	width: 190px;
+	height: 18px;
+}
+.urbangreymenu .headerbar.selected {
+	color: #fff;
+	background: url(../images/backgrounds/sub-links-head-selected.png) no-repeat 0 0;
+	margin-bottom: 0;
+	text-transform: inherit;
+	padding: 8px 0 6px 7px;
+	font-weight: bold;
+	width: 190px;
+	height: 18px;
+}
+.urbangreymenu .headerbar a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+.urbangreymenu .headerbar.selected a:hover {
+	color: #fff;
+}
+.urbangreymenu .headerbar a:hover {
+	color: #000;
+}
+
+.menus{
+width:190px;
+float:left;
+border:none;
+padding-left:20px;
+}
+
+.menus a{
+width:183px;
+height:20px;
+float:left;
+padding-left:7px;
+padding-top:8px;
+font-size:12px;
+text-align:left;
+color:#FFFFFF;
+border:none;
+background-image:url(../images/backgrounds/sub-links-head-selected.png);
+background-position:top;
+background-repeat:no-repeat;
+}
+

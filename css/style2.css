@@ -1,0 +1,313 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 12, 2016, 11:22:25 AM
+    Author     : Akila Sudesh
+*/
+
+body{margin: 0px; padding: 0px;}
+
+.mp{margin: 0px !important; padding: 0px !important; }
+
+@font-face {
+ font-family: 'custom';
+ src: url('../fonts/custom/swz721t-webfont.eot');
+ src: url('../fonts/custom/swz721t-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/custom/swz721t-webfont.woff') format('woff'), 
+      url('../fonts/custom/swz721t-webfont.ttf') format('truetype'),
+      url('../fonts/custom/swz721t-webfont.svg#custom') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'customBold';
+ src: url('../fonts/custom/swiss_721_light_condensed_bt-webfont.eot');
+ src: url('../fonts/custom/swiss_721_light_condensed_bt-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/custom/swiss_721_light_condensed_bt-webfont.woff') format('woff'), 
+      url('../fonts/custom/swiss_721_light_condensed_bt-webfont.ttf') format('truetype'),
+      url('../fonts/custom/swiss_721_light_condensed_bt-webfont.svg#customBold') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+
+@font-face {
+ font-family: 'lato';
+ src: 
+      
+      url('../fonts/custom/Lato-Regular.ttf') format('truetype');
+      
+ font-weight: normal;
+ font-style: normal;
+}
+
+.lato{font-family: "lato" !important;	}
+
+.custom {
+	font-family: "customBold" !important;	
+}
+
+p{font-family: "customBold" !important; font-size: 17px;}
+strong{font-family: "customBold" !important;}
+
+.clr{color: #000;}
+.fnt{color: #fefefe;}
+
+.sectionline {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  margin: 0 auto 15px;
+  width: 100px;
+}
+
+.section-header.position-right .sectionline {
+	margin: 0 0 15px auto;
+}
+
+.section-header.position-left .sectionline {
+	margin: 0 0 15px 0;
+}
+
+.ss{color: #bcbabb;}
+
+.bigcover{color: #fefefe; font-size: 100px;}
+.bigcover1{color: #fefefe; font-size: 100px; font-weight: bold; }
+.bigp{color: #fefefe; font-size: 20px;}
+
+.big{color: #c11c42; font-size: 55px;}
+.big1{color: #c11c42; font-size: 55px; font-weight: bold; }
+
+.ftp{color:#aec3ce; font-size: 50px; margin-left: 28px;}
+.ftpp{color:#aec3ce; font-size: 50px; margin-left: 35px; margin-top: 14px;}
+.ftppp{color:#aec3ce; font-size: 50px; margin-left: 35px; margin-top: 20px;}
+.ftp1{color:#aec3ce; font-size: 20px; margin-left: 31px;}
+.ftp2{color:#aec3ce; font-size: 20px; margin-left: 36px;}
+.ftp3{color:#aec3ce; font-size: 20px; margin-left: 36px;}
+.cl1{border-right: 1px #bcbabb solid;}
+.cl2{border-right: 1px #bcbabb solid;}
+
+/*****INDEX BUTTON*******/
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000;
+}
+
+.button1:hover {
+    background-color: #383838;
+    color: white;
+}
+
+.buttonmenu {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -10px;
+    font-size: 16px;
+  
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonnew {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000;
+}
+
+.buttonnew:hover {
+    background-color: #383838;
+    color: white;
+}
+
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h1,
+h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
+}
+
+h1+p a {
+	color: #333;
+}
+
+h1+p a:hover {
+	text-decoration: none;
+}
+
+h2 {
+	margin: 60px 15px 0;
+	padding: 0;
+	font-weight: 300;
+}
+
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}*/
+
+
+
+
+
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+/*.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}*/
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+/*.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 6em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}*/
+
+/********************************/
+/*            Overlay           */
+/********************************/
+/*.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: .3;
+}*/
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+/*.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+    outline: none;
+    margin: 20px auto;
+}*/
+
+/********************************/
+/*       Slides backgrounds     */
+/********************************/
+/*.fade-carousel .slides .slide-1, 
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3,
+.fade-carousel .slides .slide-4{
+  height: 100vh;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
+.fade-carousel .slides .slide-1 {
+  background-image: url(../image/slide/11.jpeg); 
+}
+.fade-carousel .slides .slide-2 {
+  background-image: url(../image/slide/22.png);
+}
+.fade-carousel .slides .slide-3 {
+  background-image: url(../image/slide/33.jpeg);
+}
+.fade-carousel .slides .slide-4 {
+  background-image: url(../image/slide/44.jpeg);
+}*/
+
+/********************************/
+/*          Media Queries       */
+/********************************/
+/*@media screen and (min-width: 980px){
+    .hero { width: 980px; }    
+}
+@media screen and (max-width: 640px){
+    .hero h1 { font-size: 4em; }    
+}*/

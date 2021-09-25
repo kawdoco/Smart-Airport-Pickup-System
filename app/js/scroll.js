@@ -1,0 +1,1 @@
+$(document).ready(function(){function o(o){var t=$("a[class='"+o+"']");$("html,body").animate({scrollTop:t.offset().top},"slow")}$(".arrow-motion").on("click",function(t){t.preventDefault(),o(this.id)})});

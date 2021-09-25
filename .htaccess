@@ -1,0 +1,15 @@
+
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*\/index\.php\ HTTP/ 
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^(.*)index\.php$ /$1 [R=301,L] 
+
+RewriteCond %{HTTP_HOST} ^srilankacars\.lk [nc]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule (.*) http://www.srilankacars.lk/$1 [R=301,L]
+
+ErrorDocument 404 /404.php 
